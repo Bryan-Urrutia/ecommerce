@@ -5,7 +5,7 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import { Card, CardContent } from '../ui/card'
 import Link from 'next/link'
 
-const hero = () => {
+const Hero = () => {
     return <section className='h-[550px] bg-hero bg-no-repeat bg-cover bg-center mt-10'>
         <Carousel className="container flex h-full justify-center items-center p-2" plugins={[
             Autoplay({
@@ -88,4 +88,4 @@ const hero = () => {
     </section>
 }
 
-export default hero
+export default Hero
