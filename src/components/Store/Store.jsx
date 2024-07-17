@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useContext } from "react";
-import { ProductContext } from "../../contexts/ProductContext";
+import { ProductContext } from "@/contexts/ProductContext";
 import Product from "./Product";
 
 const Store = () => {

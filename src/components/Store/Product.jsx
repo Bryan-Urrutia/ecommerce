@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { BsPlus, BsEyeFill } from 'react-icons/bs'
 import Image from 'next/image';
 import { Button } from '../ui/button';
-import { CartContext } from '../../contexts/CartContext';
+import { CartContext } from '@/contexts/CartContext';
 
 const Product = ({ product }) => {
     const { id, image, category, title, price } = product;
