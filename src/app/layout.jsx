@@ -11,7 +11,7 @@ import CartProvider from "@/contexts/CartContext";
 const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Eccomerce App",
+  title: "Ecommerce App",
   description: "",
 };
 
