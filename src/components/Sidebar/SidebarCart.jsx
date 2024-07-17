@@ -1,5 +1,5 @@
-import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { CartContext } from '@/contexts/CartContext';
+import { Sheet, SheetContent, SheetTrigger } from '../ui/sheet';
+import { CartContext } from '../../contexts/CartContext';
 import { ShoppingCart } from 'lucide-react';
 import { useContext } from 'react';
 import CartItem from './CartItem';
